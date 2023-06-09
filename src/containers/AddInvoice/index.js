@@ -53,6 +53,7 @@ const AddInvoice = () => {
           <InputLabel id="borrower-select-label">Borrower</InputLabel>
           <Select
             labelId="borrower-select-label"
+            data-testid="borrower_id"
             id="borrower_id"
             value={invoice.borrower_id}
             onChange={handleChange}
